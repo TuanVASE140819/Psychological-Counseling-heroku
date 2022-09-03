@@ -1,0 +1,229 @@
+.cart {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 90%;
+  margin: auto;
+
+  @include Responsive(LG) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+  }
+
+  @include Responsive(SM) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .card-background {
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 20px;
+
+    .card-body {
+      display: flex;
+
+      padding: 12px 15px 8px;
+
+      .card-l {
+        padding-right: 15px;
+
+        .image {
+          width: 80px;
+          border-radius: 50%;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%;
+        }
+
+        .start {
+          padding-left: 7px;
+          padding-top: 15px;
+          font-size: 14px;
+        }
+
+        .text-order {
+          padding-left: 7px;
+          font-size: 11px;
+        }
+      }
+
+      .card-c {
+        .text-c {
+          font-size: 12px;
+          margin: 5px 0;
+          width: 100%;
+        }
+
+        .text-h6 {
+          width: 100%;
+          padding-top: 5px;
+        }
+      }
+
+      .card-r {
+        position: absolute;
+        right: 10px;
+
+        .card-icon {
+          position: absolute;
+          right: 0px;
+        }
+
+        .card-button {
+          margin-top: 80px;
+
+          .button-chat {
+            font-size: 18px;
+            font-weight: bold;
+            padding: 5px 10px;
+            background-color: #fff;
+            border: 1px solid #0a0a0a;
+            border-radius: 10px;
+          }
+
+          .text-button {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: clip;
+            font-size: 9px;
+            font-weight: lighter;
+            padding-top: 2px;
+            color: #eb0029;
+            opacity: 0.6;
+            margin-left: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+.chat-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.rechange {
+  color: #28ba51;
+  border: 1px solid #28ba51;
+  border-radius: 7px;
+  padding: 7px 18px;
+  font-size: 12px;
+  display: block;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.rechange {
+  color: #28ba51;
+  border: 1px solid #28ba51;
+  border-radius: 7px;
+  padding: 7px 18px;
+  font-size: 12px;
+  display: block;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.filter,
+.Soft-by {
+  color: #030303;
+  border: 1px solid #080808;
+  border-radius: 7px;
+  padding: 7px 18px;
+  font-size: 12px;
+  display: block;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.container-1 {
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.pay {
+  color: #eb0029;
+  margin-left: 40%;
+}
+
+.search-btn {
+  color: #eb0029 !important;
+}
+
+.loading .image,
+.loading .start,
+.loading .text-order,
+.loading .text-c,
+.loading .text-h6,
+.loading .card-icon,
+.loading .button-chat,
+.loading .text-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.loading .image::before,
+.loading .start::before,
+.loading .text-order::before,
+.loading .text-c::before,
+.loading .text-h6::before,
+.loading .text-button::before {
+  background-color: #dddddd;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.loading .image::after,
+.loading .start::after,
+.loading .text-order::after,
+.loading .text-c::after,
+.loading .text-h6::after,
+.loading .text-button::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to right,
+    #dddddd 0%,
+    #ffffff 20%,
+    #ffffff 40%,
+    #ffffff 60%,
+    #ffffff 80%,
+    #ffffff 100%
+  );
+  animation: skeletonLoading 2s infinite alternate;
+}
+
+@keyframes skeletonLoading {
+  from {
+    left: -50%;
+  }
+  to {
+    left: 50%;
+  }
+}

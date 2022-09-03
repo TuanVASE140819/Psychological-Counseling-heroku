@@ -1,0 +1,39 @@
+
+.header-container{
+    background-color: cadetblue;
+    border-radius: 2px;
+    box-shadow: #000000 0 0 5px;
+}
+
+.header_contain{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    height: 308px;
+  
+}
+
+.chat-now-buttom{
+    padding: 10px;
+    height: 100%;
+    background-color: #FFFF00	;
+    max-width: 50%;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+ .header_contain_right_side h2{
+    padding-top: 20px;
+}
+/*
+.header_contain_left_side{
+    width: 70%;
+    float: left;
+} */
+

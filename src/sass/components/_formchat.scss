@@ -1,0 +1,206 @@
+.intake_from {
+    background-color: #fffcd9;
+    padding: 91px 0 20px;
+    min-height: 100vh;
+
+
+    .bg_color_Set {
+        background: #fff;
+        box-shadow: 0 0 8px #ccc;
+        border-radius: 10px;
+        padding: 0 20px;
+        margin: 0 auto;
+        width: 97%;
+
+        .heading_intake_form {
+            margin: 20px 0;
+            border-bottom: 1px solid #fff;
+            font-size: 20px;
+            font-weight: 700 !important;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+
+
+        .row {
+            margin-bottom: 10px;
+            margin: 0 -5px !important;
+
+            .form-group {
+                label {
+                    display: inline-block;
+                    max-width: 100%;
+                    margin-bottom: 4px;
+                    font-weight: 600;
+                    font-size: 15px;
+                    // margin-bottom: 15px !important;
+                    position: relative;
+
+                    span {
+                        color: red;
+                        padding-left: 3px;
+                    }
+
+
+                }
+
+                .form-control {
+                    margin-top: 9px;
+                    border-radius: 5px !important;
+                    font-size: 15px;
+                    height: 42px;
+                }
+
+                .input-group {
+                    height: 42px;
+                    margin-top: 4px;
+
+
+                    .input-group-addon {
+                        display: table-cell;
+                        padding: 10px 12px;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 1;
+                        color: #555;
+                        text-align: center;
+                        background-color: #eee;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                    }
+
+                    .cala-formm {
+                        margin-top: -1px;
+                    }
+                }
+
+
+
+            }
+        }
+
+        .display_set_btn {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            .btn-default {
+                color: #000 !important;
+                padding: 6px 0;
+                border-radius: 30px;
+                border: 2px solid $main-color;
+                background: $main-color;
+                transition: .3s ease-in-out;
+                margin: 3px 0 20px;
+                font-size: 13px;
+                width: 40%;
+                height: 36px;
+            }
+        }
+    }
+}
+
+//Form call
+
+.intake_from2 {
+    background-color: #fffcd9;
+
+
+    .bg_color_Set {
+        background: #fff;
+        box-shadow: 0 0 8px #ccc;
+        border-radius: 10px;
+        padding: 0 20px;
+        margin: 0 auto;
+        width: 97%;
+
+        .heading_intake_form {
+            margin: 20px 0;
+            border-bottom: 1px solid #fff;
+            font-size: 20px;
+            font-weight: 700 !important;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+
+
+        .row {
+            margin-bottom: 10px;
+            margin: 0 -5px !important;
+
+            .form-group {
+                label {
+                    display: inline-block;
+                    max-width: 100%;
+                    margin-bottom: 4px;
+                    font-weight: 600;
+                    font-size: 15px;
+                    // margin-bottom: 15px !important;
+                    position: relative;
+
+                    span {
+                        color: red;
+                        padding-left: 3px;
+                    }
+
+
+                }
+
+                .form-control {
+                    margin-top: 9px;
+                    border-radius: 5px !important;
+                    font-size: 15px;
+                    height: 42px;
+                }
+
+                .input-group {
+                    height: 42px;
+                    margin-top: 4px;
+
+
+                    .input-group-addon {
+                        display: table-cell;
+                        padding: 10px 12px;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 1;
+                        color: #555;
+                        text-align: center;
+                        background-color: #eee;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                    }
+
+                    .cala-formm {
+                        margin-top: -1px;
+                    }
+                }
+
+
+
+            }
+        }
+
+        .display_set_btn {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            .btn-default {
+                color: #000 !important;
+                padding: 6px 0;
+                border-radius: 30px;
+                border: 2px solid $main-color;
+                background: $main-color;
+                transition: .3s ease-in-out;
+                margin: 3px 0 20px;
+                font-size: 13px;
+                width: 40%;
+                height: 36px;
+            }
+        }
+    }
+}
+
